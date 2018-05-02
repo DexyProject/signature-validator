@@ -2,7 +2,7 @@
 
 Generalized signature validator supporting various signing standards.
 
-[![Build Status](https://travis-ci.com/DexyProject/SignatureValidator.svg?branch=development)](https://travis-ci.com/DexyProject/SignatureValidator) [![npm version](https://badge.fury.io/js/%40dexyproject%2Fsignature-validator.svg)](https://badge.fury.io/js/%40dexyproject%2Fsignature-validator) [![License](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](LICENSE) 
+[![Build Status](https://travis-ci.org/DexyProject/SignatureValidator.svg?branch=development)](https://travis-ci.org/DexyProject/SignatureValidator) [![npm version](https://badge.fury.io/js/%40dexyproject%2Fsignature-validator.svg)](https://badge.fury.io/js/%40dexyproject%2Fsignature-validator) [![License](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](LICENSE) 
 
 ## Getting Started
 
