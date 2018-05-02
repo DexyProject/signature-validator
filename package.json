@@ -1,0 +1,39 @@
+{
+  "name": "@dexyproject/signature-validator",
+  "version": "1.0.0",
+  "description": "Generalized signature validator supporting various signing standards.",
+  "author": "DEXY",
+  "contributors": [
+    "Dean Eigenmann <dean@tokenate.io>"
+  ],
+  "license": "GPL-3.0",
+  "scripts": {
+    "test": "truffle test",
+    "lint": "solium --dir ./contracts",
+    "coverage": "sh scripts/coverage.sh"
+  },
+  "files": [
+    "contracts/",
+    "truffle.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DEXY/SignatureValidator.git"
+  },
+  "devDependencies": {
+    "solidity-coverage": "^0.3.5",
+    "solium": "^1.1.6",
+    "truffle": "^4.1.7"
+  },
+  "keywords": [
+    "solidity",
+    "ethereum",
+    "smart",
+    "contracts"
+  ],
+  "dependencies": {
+    "ethereumjs-util": "^5.1.5",
+    "ganache-cli": "^6.1.0",
+    "testrpc": "0.0.1"
+  }
+}
