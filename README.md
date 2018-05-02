@@ -2,6 +2,8 @@
 
 Generalized signature validator supporting various signing standards.
 
+[![Build Status](https://travis-ci.com/DexyProject/SignatureValidator.svg?branch=development)](https://travis-ci.com/DexyProject/SignatureValidator) [![npm version](https://badge.fury.io/js/%40dexyproject%2Fsignature-validator.svg)](https://badge.fury.io/js/%40dexyproject%2Fsignature-validator) [![License](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](LICENSE) 
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
