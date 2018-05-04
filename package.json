@@ -18,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DexyProject/SignatureValidator.git"
+    "url": "git+https://github.com/DexyProject/signature-validator.git"
   },
   "devDependencies": {
     "solidity-coverage": "^0.3.5",
