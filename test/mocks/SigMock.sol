@@ -8,4 +8,7 @@ contract SigMock {
         return SignatureValidator.isValidSignature(hash, signer, signature);
     }
 
+    function recover(bytes32 hash, bytes signature) external pure returns (address) {
+        return SignatureValidator.recover(hash, signature);
+    }
 }

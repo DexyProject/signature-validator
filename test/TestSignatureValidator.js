@@ -24,4 +24,17 @@ contract('SignatureValidator', function (accounts) {
         assert.equal(true, await mock.isValidSignature(data, accounts[0], signature));
     });
 
+    it('should return correct signer', async () => {
+        let sig = (await web3.eth.sign(accounts[0], data)).slice(2);
+
+        let r = ethutil.toBuffer('0x' + sig.substring(0, 64));
+        let s = ethutil.toBuffer('0x' + sig.substring(64, 128));
+        let v = ethutil.toBuffer(parseInt(sig.substring(128, 130), 16) + 27);
+        let mode = ethutil.toBuffer(1);
+
+        let signature = '0x' + Buffer.concat([mode, v, r, s]).toString('hex');
+
+        assert.equal(accounts[0], await mock.recover(data, signature));
+    });
+
 });
